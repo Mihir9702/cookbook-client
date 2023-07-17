@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+
+  h2 {
+    position: absolute;
+    top: 10px;
+    font-style: italic;
+  }
+
+  p {
+    position: absolute;
+    font-weight: 600;
+  }
+}

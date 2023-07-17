@@ -1,0 +1,25 @@
+{
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      // Snowpack aliases, add them here.
+      // Doesn't seem to affect code - alias set up in snowpack.config
+      "src": ["./src/*"],
+      "public": ["./public/*"]
+    },
+    "noEmit": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "types": ["snowpack-env"],
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

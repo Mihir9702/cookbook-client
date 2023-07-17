@@ -1,0 +1,65 @@
+$font: 'Marck Script', cursive;
+
+// Heading
+.cat-t {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  text-decoration: 2px underline;
+  text-underline-offset: 4px;
+}
+
+// Grid
+.grid {
+  display: grid;
+  gap: 5em;
+  width: 80%;
+  transform: translate(10%);
+
+  .g-t {
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+
+  img {
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .col {
+    padding: 1em;
+    align-self: start;
+    box-shadow: 0 5px 20px 10px lighten(palevioletred, 15%);
+    transition: transform 300ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .p {
+    text-align: center;
+    font-size: clamp(1rem, 1.05rem, 1.1rem);
+  }
+
+  .link {
+    margin: auto;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,0 +1,59 @@
+$font: 'Marck Script', cursive;
+
+// Heading
+.cat-t {
+  font-size: 4em !important;
+  font-family: $font !important;
+  text-decoration: 2px underline !important;
+  text-underline-offset: 4px !important;
+  user-select: none;
+}
+
+.cat-grid {
+  gap: 4em;
+  margin: 2em;
+  place-items: center;
+
+  a {
+    padding: 0 3.25em;
+  }
+
+  .g-t {
+    font-family: $font;
+    font-size: 2.75em;
+    text-align: center;
+    padding: 0.25rem;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .cat-col {
+    display: grid;
+    gap: 3em;
+    height: 100%;
+    padding: 2em 0;
+    place-items: center;
+    border: none;
+    box-shadow: 0 5px 20px 10px palevioletred;
+
+    &:hover {
+      text-decoration: none;
+      transform: scale(1.05);
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
