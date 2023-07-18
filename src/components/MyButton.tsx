@@ -4,6 +4,7 @@ import { Button, useColorModeValue } from '@chakra-ui/react'
 interface Props {
   color: string
   onClick: (e: React.FormEvent) => void
+  children: React.ReactNode
 }
 
 const MyButton: React.FC<Props> = ({ color, onClick, children }) => {

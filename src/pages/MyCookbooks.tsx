@@ -28,7 +28,6 @@ const MyCookbooks: React.FC<Props> = ({ cb, i }) => {
     <Stack>
       <Button
         boxSize="xs"
-        spacing={8}
         border={borderSize}
         borderColor={useColorModeValue('blue.500', 'teal.400')}
         rounded="3xl"
@@ -40,8 +39,8 @@ const MyCookbooks: React.FC<Props> = ({ cb, i }) => {
         boxShadow="dark-lg"
         m={8}
         p={8}
-        justify="flex-start"
-        align="center"
+        justifyContent="flex-start"
+        alignItems="center"
         _hover={{
           textDecoration: 'none',
           bg: useColorModeValue('blue.50', 'teal.900')

@@ -7,7 +7,6 @@ import type { Cart } from 'src/components/interfaces'
 import { Flex, Center, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon, DeleteIcon } from '@chakra-ui/icons'
 
-// @ts-ignore
 const CartPage: FC<Cart> = ({ cart, setCart }) => {
   const { username } = useParams()
   const [unique] = useState([...new Set(cart)])

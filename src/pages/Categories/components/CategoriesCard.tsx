@@ -3,12 +3,10 @@ import {
   Link,
   Text,
   Image,
-  Button,
   Center,
   Heading,
   GridItem,
   useColorModeValue,
-  Container
 } from '@chakra-ui/react'
 import type { Card } from 'src/components/interfaces'
 
@@ -19,10 +17,12 @@ const GridCardCategory: FC<Card> = ({ _id, title, image, description }) => {
       className="col"
       as={Link}
       href={`/categories/${title}`}
+      backgroundColor={(useColorModeValue('gray.100', 'gray.700'))}
+      marginY={"1em"}
     >
       <Heading className="g-t">{title}</Heading>
       <Center>
-        <Image src={image} borderRadius={'10px'} />
+        <Image src={image} borderRadius={'10px'} marginY={"10px"} />
       </Center>
       <Text className="p">{description}</Text>
     </GridItem>

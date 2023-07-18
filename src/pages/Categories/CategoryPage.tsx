@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import { Center, Grid } from '@chakra-ui/react'
 import { url } from 'src/services/url'
-import recipes from '../../data/recipes.json'
+import { recipes } from '../../data/recipes'
 import './Category.scss'
 
 const CategoryPage: React.FC = () => {
