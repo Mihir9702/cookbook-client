@@ -6,28 +6,30 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import { Center, Grid } from '@chakra-ui/react'
 import { url } from 'src/services/url'
+import recipes from '../../data/recipes.json'
 import './Category.scss'
 
 const CategoryPage: React.FC = () => {
   const [data, setData] = useState<any>([])
   const { category } = useParams()
 
+  // useEffect(() => {
+  //   axios
+  //     .get(`${url}/catalog/categories/${category}`)
+  //     .then(res => setData(res.data))
+  //     .catch(err => console.error(err))
+  // }, [])
+
   useEffect(() => {
-    axios
-      .get(`${url}/catalog/categories/${category}`)
-      .then(res => setData(res.data))
-      .catch(err => console.error(err))
+    setData(recipes)
   }, [])
 
   return (
     <Center flexDir={'column'}>
-      <Header title={data?.title} />
+      <Header title={'Recipes'} />
       <Grid className="cat-grid">
-        {data.length === 0 ? (
-          <MySpinner />
-        ) : (
-          data?.map(recipe => <RecipeStr key={recipe._id} {...recipe} />)
-        )}
+        {data && data.length === 0 && <MySpinner />}
+        {data && data.map(recipe => <RecipeStr key={recipe._id} {...recipe} />)}
       </Grid>
     </Center>
   )

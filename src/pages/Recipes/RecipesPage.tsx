@@ -12,9 +12,10 @@ import {
   GridItem,
   useColorModeValue
 } from '@chakra-ui/react'
+import recipes from '../../data/recipes.json'
 
 const RecipesPage = () => {
-  const [data, setData] = useState<Recipe[]>()
+  const [data, setData] = useState<any[]>()
 
   const fetchData = async () => {
     try {
@@ -26,7 +27,8 @@ const RecipesPage = () => {
   }
 
   useEffect(() => {
-    fetchData()
+    // fetchData()
+    setData(recipes)
   }, [])
 
   return (

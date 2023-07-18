@@ -1,0 +1,211 @@
+[{
+  "_id": {
+    "$oid": "621f9c7cd5dac9e8bce4e369"
+  },
+  "name": "sueprsajkdjwa",
+  "username": "akldawjdl",
+  "password": "$2b$10$YE0uXer.JZAzChQUjz7p/uHnsLD8.a1i4WxYo6fSugrcOpUmUqvfC",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-02T16:34:04.073Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-02T16:34:04.073Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621f9d300cdda1c4b998fa31"
+  },
+  "name": "mihirtest",
+  "username": "mihirtest",
+  "password": "$2b$10$LYHmvBQ/8lV/q/j1XAWRjuu.qmJamCKrHcv0VCdjA2WAo2nQcBfoa",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-02T16:37:04.288Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-02T16:37:04.288Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62212593b51f04c6bc1bee0b"
+  },
+  "name": "MihirPatel",
+  "username": "SuperMihirPatel",
+  "password": "$2b$10$X/XqF16ejxgIi5EYutUtW.bWmeFkUXUMn00rMYkRgJ9zPgacvj2e6",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:31:15.402Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:31:15.402Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622126e02329fe5f0c0badc8"
+  },
+  "name": "MihirPatel",
+  "username": "Mihir",
+  "password": "$2b$10$gvNfbc.JNEZRsXrVSbhU7eG9JfiqCUeQSHsh5DxeyO3ryIHTjqa9y",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:36:48.991Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:36:48.991Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62212798bd816540370ed13e"
+  },
+  "name": "MihirPatel",
+  "username": "Mihir@)!(#!",
+  "password": "$2b$10$3SFBUpw25v.WSjsD.kY2I.Y6wOas8S6qSsTc61Y3l1xpo55rM/a4y",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:39:52.875Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:39:52.875Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622127bf5ad1798c908a8b58"
+  },
+  "name": "MihirPatel",
+  "username": "Mihir(@183018239012",
+  "password": "$2b$10$Sns0uaWCoki.MKcy.yFGXeK2spkOR09Ws3paTtBBRanQn0EcAm.0K",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:40:31.148Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:40:31.148Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622127cb5ad1798c908a8b5b"
+  },
+  "name": "MihirPatel",
+  "username": "MihirSUPWAIDWAKLDAW",
+  "password": "$2b$10$A/HVGCU2ajE2VdR6C51FtuykDSFE68xKzN/sRxMLVno2YZDUwYWn2",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:40:43.578Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:40:43.578Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622128ba3f90e003d669c85b"
+  },
+  "name": "MihirPatel",
+  "username": "w@@@@wdupawdkj",
+  "password": "$2b$10$Dj7EVpHOgtBsSjP4D/xowe.CEhKzo4RF/ioMbMQ4BaL8iQ7c.8K96",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T20:44:42.751Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T20:44:42.751Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62213d372cf340850e1c99b2"
+  },
+  "name": "auth",
+  "username": "authuser",
+  "password": "$2b$10$P20pahZDspe96c8ShDQdTusyQqLevfUJw.NukgaSoIgrNC/Dou88S",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T22:12:07.841Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T22:12:07.841Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6221437b21f98937826ba09b"
+  },
+  "name": "auth",
+  "username": "authesds",
+  "password": "$2b$10$tuZaftGsPF74wmsbK8CVOOtJtUs8K5WYs4Xc7VMv38sl3iv58WbYa",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-03T22:38:51.477Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-03T22:38:51.477Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62274f3f1e0a07455d185cea"
+  },
+  "name": "myname",
+  "username": "myusdern",
+  "password": "$2b$10$SciV9RSMVI3zFZ3P/QLkiuwHwIvwfLHh9IRutWUyetxhU05v3NLwe",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-08T12:42:39.635Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-08T12:42:39.635Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622751871e0a07455d185cec"
+  },
+  "name": "somethingname",
+  "username": "Mihir's Bot",
+  "password": "$2b$10$O.7GljlQMJxtbUuQl5CYe.ViNblUea5drpqFBaFricqR3C7ZltCpK",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-08T12:52:23.017Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-08T12:52:23.017Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622779f51e0a07455d185cef"
+  },
+  "name": "name",
+  "username": "username",
+  "password": "$2b$10$4sxNk6MPNpw0QJ6rg5BkPu/tNM2Wlmc2Di6aOd1xWruBIKNHgKtn6",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-08T15:44:53.029Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-08T15:44:53.029Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62277bad1e0a07455d185cf1"
+  },
+  "name": "newname",
+  "username": "newuser",
+  "password": "$2b$10$nzkr1rdMw2Q8aVuD9cjt5.kEs/4TwlU8DmhOEUgg8wqb98lgC2V2y",
+  "cookbooks": [],
+  "createdAt": {
+    "$date": "2022-03-08T15:52:13.326Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-08T15:52:13.326Z"
+  },
+  "__v": 0
+}]
