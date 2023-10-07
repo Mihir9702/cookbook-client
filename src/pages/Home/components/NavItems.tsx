@@ -20,15 +20,15 @@ const NAVITEMS: Array<NavItem> = [
         href: '/recipes'
       }
     ]
-  },
-  {
-    label: 'Sign in',
-    href: '/login'
-  },
-  {
-    label: 'Sign up',
-    href: '/signup'
   }
+  // {
+  //   label: 'Sign in',
+  //   href: '/login'
+  // },
+  // {
+  //   label: 'Sign up',
+  //   href: '/signup'
+  // }
 ]
 
 export default NAVITEMS

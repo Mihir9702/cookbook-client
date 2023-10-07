@@ -19,28 +19,29 @@ const RecipesPage = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`${url}/catalog/recipes`)
-      setData(response.data)
+      await axios.get(`${url}/catalog/recipes`)
+      setData(recipes)
     } catch (err) {
       console.log(err)
     }
   }
 
+  console.log(recipes)
+
   useEffect(() => {
-    // fetchData()
-    setData(recipes)
+    fetchData()
   }, [])
 
   return (
     <Flex flexDir={'column'} justify={'center'} align={'center'}>
       <h2 className="cat-t">Recipes</h2>
       <Grid className="cat-grid">
-        {!data ? (
+        {!recipes ? (
           <MySpinner />
         ) : (
-          data.map(recipe => (
+          recipes.map(recipe => (
             <GridItem
-              key={recipe._id}
+              key={recipe.id}
               className="cat-col"
               border={'1px solid'}
               borderColor={useColorModeValue('pink.300', 'pink.500')}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Stack, Button, Link } from '@chakra-ui/react'
-import { AddIcon, ArrowBackIcon, ArrowLeftIcon } from '@chakra-ui/icons'
+import { AddIcon, ArrowBackIcon } from '@chakra-ui/icons'
 
 interface Props {
   handleCart: () => void

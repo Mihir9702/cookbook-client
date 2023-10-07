@@ -3,7 +3,7 @@ import axios from 'axios'
 import Guide from './Guide'
 import Ingredient from './Ingredient'
 import AddButton from './AddButton'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { url } from 'src/services/url'
 import type { Cart, Recipe } from 'src/components/interfaces'
 import SignUpButton from './SignUpButton'
@@ -18,10 +18,15 @@ import {
   Container,
   SimpleGrid,
   StackDivider,
-  useColorModeValue
+  useColorModeValue,
+  Button,
+  Icon
 } from '@chakra-ui/react'
+import { recipes } from '../../../data/recipes'
+import { ChevronLeftIcon } from '@chakra-ui/icons'
 
 const RecipeComponent: React.FC<Cart> = ({ id, cart, setCart }) => {
+  const navigate = useNavigate()
   const { recipe } = useParams()
   const [data, setData] = useState<Recipe>()
 
@@ -33,11 +38,16 @@ const RecipeComponent: React.FC<Cart> = ({ id, cart, setCart }) => {
   }
 
   useEffect(() => {
-    axios
-      .get(`${url}/catalog/recipes/${recipe}`)
-      .then(res => setData(res.data))
-      .catch(err => console.error(err))
+    const r = recipes.find(rec => rec.title === recipe)
+    setData(r as any)
   }, [])
+
+  // useEffect(() => { // * This is the original useEffect
+  //   axios
+  //     .get(`${url}/catalog/recipes/${recipe}`)
+  //     .then(res => setData(res.data))
+  //     .catch(err => console.error(err))
+  // }, [])
 
   return (
     <Container maxW={'7xl'}>
@@ -89,7 +99,16 @@ const RecipeComponent: React.FC<Cart> = ({ id, cart, setCart }) => {
               </List>
             </Box>
           </Stack>
-          {id ? <AddButton handleCart={handleCart} /> : <SignUpButton />}
+          {/* {id ? <AddButton handleCart={handleCart} /> : <SignUpButton />} */}
+          <Stack direction="row">
+            <Button
+              colorScheme="teal"
+              variant="outline"
+              onClick={() => navigate(-1)}
+            >
+              <Icon as={ChevronLeftIcon} />
+            </Button>
+          </Stack>
         </Stack>
       </SimpleGrid>
     </Container>
